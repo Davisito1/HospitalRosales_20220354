@@ -53,7 +53,7 @@ patientsRegisterController.register = async (req, res) => {
             service: "gmail",
             auth: {
                 user: config.email.user_email,
-                password: config.email.user_password
+                pass: config.email.user_password
             }
         })
 
